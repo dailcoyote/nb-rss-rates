@@ -1,0 +1,21 @@
+{
+  "name": "nb-rss-rates",
+  "version": "1.0.0",
+  "description": "RSS, NATIONAL_BANK.KZ, Rates, JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RSS",
+    "NATIONAL_BANK.KZ",
+    "Rates",
+    "JS"
+  ],
+  "author": "dailcoyote@gmail.comm",
+  "license": "ISC",
+  "dependencies": {
+    "rss-parser": "^3.7.2",
+    "rss-parser-browser": "^2.2.2"
+  }
+}
