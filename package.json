@@ -15,7 +15,6 @@
   "author": "dailcoyote@gmail.comm",
   "license": "ISC",
   "dependencies": {
-    "rss-parser": "^3.7.2",
     "rss-parser-browser": "^2.2.2"
   }
 }
