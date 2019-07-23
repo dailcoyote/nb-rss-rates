@@ -8,16 +8,32 @@ npm install git+https://github.com/dailcoyote/nb-rss-rates.git --save
 ```
 
 ## Usage
+### With Calculate
 ```javascript
-var nbRSSParser = require("nb-rss-rates");
+const nbRSSParser = require('./index');
 
 const kztValue = 45000;
-nbRSSParser(kztValue)
-    .then((data) => console.log(data))  
+nbRSSParser.calculateExchRates(kztValue)
+    .then((data) => console.log(data))
     .catch((e) => console.log(e))
 ```
 
 ## Output
 ```javascript
-{ USD: '117.19', RUB: '7500.00' }
+{ USD: 117.03, RUB: 7377.05 }
 ```
+### With only parse
+```javascript
+const nbRSSParser = require('./index');
+
+// Usage
+nbRSSParser.parseExchRates()
+    .then((data) => console.log(data))
+    .catch((e) => console.log(e))
+```
+
+## Output
+```javascript
+{ USD: 384.52, RUB: 6.1 }
+```
+
