@@ -11,7 +11,7 @@ npm install git+https://github.com/dailcoyote/nb-rss-rates.git --save
 
 ### With Calculate
 ```javascript
-const nbRSSParser = require('./index');
+const nbRSSParser = require("nb-rss-rates");
 
 const kztValue = 45000;
 nbRSSParser.calculateExchRates(kztValue)
@@ -25,7 +25,7 @@ nbRSSParser.calculateExchRates(kztValue)
 
 ### With only parse
 ```javascript
-const nbRSSParser = require('./index');
+const nbRSSParser = require("nb-rss-rates");
 
 // Usage
 nbRSSParser.parseExchRates()
